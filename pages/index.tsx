@@ -1,14 +1,12 @@
-// app/page.tsx
-"use client"; // Required for state and event handlers, if you add them
-
+// pages/index.tsx
 import React from "react";
-import Pill from "./components/Pill";
-import PropertyCard from "./components/PropertyCard";
+import Pill from "../components/Pill";
+import PropertyCard from "../components/PropertyCard";
 import {
   HERO_IMAGE_URL,
   FILTER_LABELS,
   PROPERTYLISTINGSAMPLE,
-} from "@/constants";
+} from "../constants";
 
 export default function Home() {
   return (

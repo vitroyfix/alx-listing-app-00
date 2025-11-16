@@ -1,6 +1,6 @@
-// app/components/layout/Header.tsx
-import Link from "next/link";
+// components/layout/Header.tsx
 import React from "react";
+import Link from "next/link";
 import { Search, Home, Building, Trees, Mountain } from "lucide-react";
 
 const Header = () => {

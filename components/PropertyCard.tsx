@@ -1,7 +1,9 @@
-// app/components/PropertyCard.tsx
-import { PropertyProps } from "@/interfaces";
+// components/PropertyCard.tsx
+import React from "react";
 import Image from "next/image";
 import { Star } from "lucide-react";
+// Use relative path to import the interface
+import { PropertyProps } from "../interfaces";
 
 interface CardProps {
   property: PropertyProps;

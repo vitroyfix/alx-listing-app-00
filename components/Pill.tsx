@@ -1,4 +1,4 @@
-// app/components/Pill.tsx
+// components/Pill.tsx
 import React from "react";
 
 interface PillProps {
