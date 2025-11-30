@@ -1,24 +1,29 @@
-// interfaces/index.ts
-
-interface AddressProps {
+export interface Address {
   state: string;
   city: string;
   country: string;
 }
 
-interface OffersProps {
-  bed: string;
-  shower: string;
-  occupants: string;
+export interface Review {
+  avatar: string;
+  name: string;
+  rating: number;
+  comment: string;
 }
 
 export interface PropertyProps {
   name: string;
-  address: AddressProps;
+  address: Address;
   rating: number;
   category: string[];
   price: number;
-  offers: OffersProps;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
   image: string;
   discount: string;
+  description: string;
+  reviews: Review[];
 }
